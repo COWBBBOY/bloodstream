@@ -15,34 +15,34 @@
 ## About
 <img align="right" width="40%" src="https://i.imgur.com/KBu69Ng.png" alt="Animation">
 
-Lasers emit light. This light is released at the same time, and is typically one color. After it hits a surface, it reflects. If it's a perfect mirror, it will fully reflect. But if it hits a rough surface, waves will travel in random directions. The rougher the surface, the more this "scattering". When two lightwaves cross paths, they interfere. This causes a speckle pattern. If the light hits a surface that's changing, like a drying wall of paint, the speckle pattern will change over time. The faster the evaporation, the faster the speckle change.
+Typical lasers release one color of light at the same time. After it hits a surface, it reflects. If it's a perfect mirror, it will fully reflect. But if it hits a rough surface, waves will scatter in random directions. The rougher the surface, the more this scattering. When two lightwaves of the same color cross paths, they interfere. If they constructively interfere, there's a bright spot. If they destructively interfere, there's a dark spot. There's also partial interference, which results in a brightness between the two. We call these spots of varying brightness speckle. If the light hits a changing surface, like a drying wall of paint, the speckle pattern will change over time. The faster the evaporation, the faster the speckle change. So if we measure these speckle changes, we can calculate evaporation rate. 
 
-When we now shine laser light on a brain, we can measure blood flow. If we also stimulate the brain, we can determine how blood flow responds to neural activity. Therefore if we measure blood flow, we can estimate neurological state. This may result in a non-invasive test for neurodegeneration, like Alzheimers.
+This repository includes hardware and software to calculate surface brain blood flow. If we also stimulate the brain, we can now determine how blood flow responds to neural activity. If we measure blood flow, we can estimate neurological state. This may result in a non-invasive test for neurological degeneration, like Alzheimers.
 
-If this is helpful in your, please cite:
+If this is helpful in your work, please cite:
 
-@inproceedings{xxx,
-Author = {xxx},
-Title = {xxx},
-Booktitle  = {xxx},
-Year = {2021}
-}
+    @inproceedings{xxx,
+        Author = {xxx},
+        Title = {xxx},
+        Booktitle = {xxx},
+        Year = {2021}
+        }
 
 ## Installation
-Developed with Python 3.9.5
+1. (recommended) Initiate and enter a python virtual environment to minimize package conflict:
+```bash
+python3 -m venv venv && source venv/bin/activate
+```
 
-1. (recommended) python3 -m venv venv && source venv/bin/activate
+2. Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-2. pip install -r requirements.txt
-
-3.
-
-## Demo
-1.
-
-2.
-
-3.
+3. Run the demo:
+```bash
+python src/get-velocity.py
+```
 
 ## Notes
 wouldn't speckle change as a result of water evaporation on surface of brain
