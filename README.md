@@ -21,6 +21,13 @@ When we now shine laser light on a brain, we can measure blood flow. If we also 
 
 If this is helpful in your, please cite:
 
+@inproceedings{xxx,
+Author = {xxx},
+Title = {xxx},
+Booktitle  = {xxx},
+Year = {2021}
+}
+
 ## Installation
 Developed with Python 3.9.5
 
