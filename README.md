@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/mattrohr/INSERT PROJECT URL/actions?query=workflow%3Abuild">
-<img src="https://github.com/mattrohr/INSERT PROJECT URL/workflows/build/badge.svg?branch=main" alt="Build Status Badge">
+<a href="https://github.com/mattrohr/blood-velocity/actions?query=workflow%3Abuild">
+<img src="https://github.com/mattrohr/blood-velocity/workflows/build/badge.svg?branch=main" alt="Build Status Badge">
 </a>
 </p>
 
