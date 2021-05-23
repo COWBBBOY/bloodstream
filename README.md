@@ -21,23 +21,23 @@ Typical lasers release one color of light at the same time. After it hits a surf
 **This repository includes hardware and software to calculate surface brain blood flow.** If we also stimulate the brain, we can now determine how blood flow responds to neural activity. In patients with neural decline, blood response to stimulation may be delayed. We could then measure this delay to test for neurodegenerative diseases, like Alzheimers. Alzheimers is the only leading cause of death that can't be slowed, stopped, or cured.
 
 If this is helpful in your work, please cite:
-
-    @inproceedings{xxx,
-        Author = {xxx},
-        Title = {xxx},
-        Booktitle = {xxx},
-        Year = {2021}
-        }
+    @misc{rohr2021bloodvelocity,
+      author = {Matt Rohr},
+      title = {Blood Velocity},
+      year = {2021},
+      howpublished = {\url{https://github.com/mattrohr/blood-velocity}},
+      note = {commit xxxxxxx}
+    }
 
 ## Installation
-1. (recommended) Create and enter a Python virtual environment to minimize package conflict:
+1. (_recommended_) Create and enter a Python virtual environment to minimize package conflict:
 ```bash
 python3 -m venv venv && source venv/bin/activate
 ```
 
 2. Install Python dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 ```
 
 3. Run the demo:
