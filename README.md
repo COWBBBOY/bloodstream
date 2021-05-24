@@ -1,5 +1,5 @@
 <p align="center">
-<img width="75%" src="https://i.imgur.com/SB7GGU0.png" alt="Banner">
+<img width="75%" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Objective_speckle.jpg" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
 </p>
 
 <p align="center">
@@ -13,8 +13,8 @@
 </p>
 
 ## About
-<img align="right" width="40%" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Objective_speckle.jpg"
-alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
+<img align="right" width="40%" src="https://i.imgur.com/SB7GGU0.png"
+alt="schematic">
 
 Typical lasers release one color of light at the same time. After it hits a surface, it reflects. If it's a perfect mirror, it will completely reflect. But if it hits a rough surface, waves will scatter in random directions. The rougher the surface, the more this scattering. When two lightwaves of the same color cross paths, they interfere. If they constructively interfere, there's a bright spot. If they destructively interfere, there's a dark spot. There's also partial interference, which results in a brightness between the two. We call these spots of varying brightness speckle. If the light hits a changing surface, like a drying wall of paint, the speckle pattern will change over time. The faster the evaporation, the faster this speckle change.
 
