@@ -1,5 +1,5 @@
 <p align="center">
-<img width="75%" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Objective_speckle.jpg" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
+<img width="40%" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Objective_speckle.jpg" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
 </p>
 
 <p align="center">
