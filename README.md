@@ -21,6 +21,7 @@ Typical lasers release one color of light at the same time. After it hits a surf
 **This repository includes hardware and software to calculate surface brain blood flow.** If we also stimulate the brain, we can now determine how blood flow responds to neural activity. In patients with neural decline, blood response to stimulation may be delayed. We could then measure this delay to test for neurodegenerative diseases, like Alzheimers. Alzheimers is the only leading cause of death that can't be slowed, stopped, or cured.
 
 If this is helpful in your work, please cite:
+
     @misc{rohr2021bloodvelocity,
       author = {Matthew Rohr},
       title = {Blood Velocity},
