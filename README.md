@@ -1,6 +1,13 @@
 <p align="center">
-<img width="40%" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Objective_speckle.jpg" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
+<img width="40%" src="./docs/banner.gif" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
 </p>
+
+![image info](./docs/banner.gif)
+![Kiku](docs/banner.gif)
+![Kiku](/docs/banner.gif)
+
+
+
 
 <p align="center">
 <b>Image laser speckle fluctuation to measure blood velocity</b>
