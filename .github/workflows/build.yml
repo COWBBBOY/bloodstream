@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:	
           name: my-artifact ${{ matrix.node-version }}
-          path: ${{ github.workspace }}/data/*
+          path: ${{ github.workspace }}/data/final/*
