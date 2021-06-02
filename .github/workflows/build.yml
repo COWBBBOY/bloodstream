@@ -22,6 +22,7 @@ jobs:
       - run: |
           cd src
           python get-velocity.py
+          ls
       - name: Upload flow image
         uses: actions/upload-artifact@v2
         with:
