@@ -61,5 +61,5 @@ plt.imshow(imcontrast10,  vmin=0.1, vmax=0.4, cmap=plt.get_cmap("jet"))
 plt.colorbar(orientation = 'horizontal', ticks = [0.1, 0.2, 0.3, 0.4])
 
 #saves figure
-plt.savefig('result.jpg', bbox_inches=0, pad_inches=0,dpi=120);
+plt.savefig('./../data/interim/result.jpg', bbox_inches=0, pad_inches=0,dpi=120);
 plt.show()
