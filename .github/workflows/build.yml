@@ -25,5 +25,5 @@ jobs:
       - name: Upload flow image
         uses: actions/upload-artifact@v2
         with:	
-          name: my-artifact ${{ matrix.node-version }}
+          name: my-artifact ${{ matrix.python }}
           path: ${{ github.workspace }}/data/final/*
