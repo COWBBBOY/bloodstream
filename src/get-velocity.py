@@ -37,7 +37,7 @@ print(os.getcwd())
 ############ Main
 #load test dataset
 im = Image.open("./../data/interim/datauint16.tiff")
-#taking only 1st frameg
+#taking only 1st frame
 #convert to the float for filtering and calculation
 imarray = np.array(im).astype(float)
 
