@@ -25,6 +25,6 @@ jobs:
           ls
       - name: Upload flow image
         uses: actions/upload-artifact@v2
-        with:
-          name: flow image
-          path: result.jpg
+        with:	
+          name: ${{ env.name }}-name	
+          path: ${{ github.workspace }}/**/*
