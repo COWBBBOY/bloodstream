@@ -1,5 +1,7 @@
 <p align="center">
-<img width="40%" src="./docs/banner.gif" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
+<img width="40%" src="https://i.imgur.com/CBweQOZ.png" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
+<img width="40%" src="https://i.imgur.com/disN1pn.png" alt="animation of laser on different surfaces (mirror, rough surface, drying surface, brain)">
+
 </p>
 
 <p align="center">
