@@ -1,3 +1,6 @@
+#debug
+import os
+
 from scipy import ndimage
 from PIL import Image
 import numpy as np
@@ -21,16 +24,20 @@ from matplotlib import pyplot as plt
 
 #function for lasca contrast calculation
 def lasca(imarray, wsize = 10):
-    immean = ndimage.uniform_filter(imarray, size=wsize)	
+    immean = ndimage.uniform_filter(imarray, size=wsize) 
     im2mean = ndimage.uniform_filter(np.square(imarray), size=wsize)
     imcontrast = np.sqrt(im2mean / np.square(immean) - 1)
     return imcontrast
 
+# make sure file exists
+print(os.listdir())
+# make sure I'm in the directory I think I'm in
+print(os.getcwd())
+
 ############ Main
 #load test dataset
 im = Image.open("./../data/interim/datauint16.tiff")
-#taking only 1st frame
-im.seek(0)
+#taking only 1st frameg
 #convert to the float for filtering and calculation
 imarray = np.array(im).astype(float)
 
