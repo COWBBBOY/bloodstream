@@ -19,4 +19,5 @@ jobs:
       - run: |
           python -m pip install --upgrade pip
           pip install -r src/requirements.txt
-      - run: python src/get-velocity.py
+      - run: cd src
+      - run: python get-velocity.py
