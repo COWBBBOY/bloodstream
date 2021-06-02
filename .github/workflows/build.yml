@@ -22,7 +22,7 @@ jobs:
       - run: |
           cd src
           python get-velocity.py
-      - name: Upload flow image
+      - name: Upload demo result
         uses: actions/upload-artifact@v2
         with:	
           name: demo result using Python ${{ matrix.python }}
