@@ -25,5 +25,5 @@ jobs:
       - name: Upload flow image
         uses: actions/upload-artifact@v2
         with:	
-          name: ${{ github.repository }} artifact using Python ${{ matrix.python }}
+          name: artifact using Python ${{ matrix.python }}
           path: ${{ github.workspace }}/data/final/*
