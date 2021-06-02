@@ -33,17 +33,22 @@ If this is helpful in your work, please cite:
     }
 
 ## Installation
-1. (_recommended_) Create and enter a Python virtual environment to minimize package conflict:
+1. Clone this repository:
+```bash
+git clone https://github.com/mattrohr/blood-velocity.git && cd blood-velocity/
+```
+
+2. (_recommended_) Create and enter a Python virtual environment to minimize package conflict:
 ```bash
 python3 -m venv venv && source venv/bin/activate
 ```
 
-2. Install Python dependencies:
+3. Install Python dependencies:
 ```bash
 pip install -r src/requirements.txt
 ```
 
-3. Run the demo:
+4. Run the demo:
 ```bash
 python src/get-velocity.py
 ```
