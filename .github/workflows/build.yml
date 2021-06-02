@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:	
           name: save
-          path: ${{ github.workspace }}/data/final/result.jpg
+          path: ../${{ github.workspace }}/data/final/result.jpg
